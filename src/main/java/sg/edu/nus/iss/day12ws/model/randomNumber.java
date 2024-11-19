@@ -1,12 +1,14 @@
+// this is not used
+
 package sg.edu.nus.iss.day12ws.model;
 
 import java.util.Random;
 
-public class randomNumber 
+public class RandomNumber 
 {
     private int randInt;
 
-    public randomNumber() {
+    public RandomNumber() {
         
         Random rand = new Random();
          // int randInt = rand.nextInt(max - min + 1) + min

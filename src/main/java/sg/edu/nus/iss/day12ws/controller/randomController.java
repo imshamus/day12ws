@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 @RequestMapping("/form")
-public class randomController 
+public class RandomController 
 {
     // Show blank form
     @GetMapping(path = "")

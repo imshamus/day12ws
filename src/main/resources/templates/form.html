@@ -14,7 +14,7 @@
         <h2>How many numbers do you wish to generate?</h2>
         
         <form method="GET" data-th-action="@{/form/generated}">
-            <label style="margin: 10px">Number of Randoms</label>
+            <label style="margin: 10px">Enter a number (1-30): </label>
             <!-- <input type ="text" name = "numbers" placeholder="Enter 1-30"> -->
             <input type="number" id="number" name="number" min="1" max="30" required>
             <button type = "submit">Generate</button>

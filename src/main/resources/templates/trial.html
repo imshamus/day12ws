@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Links</title>
+</head>
+<body>
+    <h1>Generated Links</h1>
+    <ul>
+        <!-- Loop through the list of numbers -->
+        <li th:each="num : ${numbers}">
+            <!-- Generate URL with query string -->
+            <a th:href="@{/generate(number=${num})}" th:text="'Generate ' + ${num}"></a>
+        </li>
+    </ul>
+</body>
+</html>
